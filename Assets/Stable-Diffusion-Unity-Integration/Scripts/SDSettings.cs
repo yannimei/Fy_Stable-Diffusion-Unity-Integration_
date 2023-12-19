@@ -130,7 +130,7 @@ class SDParamsInImg2Img
     public string[] init_images = { "" };
     public int resize_mode = 0;
     public float denoising_strength = 0.75f;
-    //    public string mask = ""; // including this throws a 500 Internal Server error
+     public string mask = null; // including this throws a 500 Internal Server error, try with null
     public int mask_blur = 4;
     public int inpainting_fill = 0;
     public bool inpaint_full_res = true;
