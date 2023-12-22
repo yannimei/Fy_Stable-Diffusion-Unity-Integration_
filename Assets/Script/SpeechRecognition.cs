@@ -13,7 +13,7 @@ namespace OpenAI
         [SerializeField] private Dropdown dropdown;
 
         private readonly string fileName = "prompt.wav";
-        private readonly int duration = 10;
+        private readonly int duration = 15;
 
         private AudioClip clip;
         private bool isRecording;
